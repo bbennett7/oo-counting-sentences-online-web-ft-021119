@@ -28,7 +28,7 @@ class String
 
   def count_sentences
     counter = 0 
-    self.each do ||
+    self.each do |character|
     end
     
   end 
