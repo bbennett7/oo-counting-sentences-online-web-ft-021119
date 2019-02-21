@@ -32,6 +32,7 @@ class String
       word.end_with?(".", "!", "?")
       counter += 1 
     end
+    counter
   end
     
   end 
