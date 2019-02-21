@@ -28,10 +28,10 @@ class String
 
   def count_sentences
     counter = 0 
-    if self.split.each do |word|
-
-      word.end_with?(".", "!", "?")
-      counter += 1 
+    self.split.each do |word|
+      if word.end_with?(".", "!", "?")
+        counter += 1 
+      end
     end
     counter
   end
