@@ -28,8 +28,7 @@ class String
 
   def count_sentences
     counter = 0 
-    self.each do |character|
-    end
+    if self.split[counter] == "."
     
   end 
 end
