@@ -35,6 +35,4 @@ class String
     end
     counter
   end
-    
-  end 
 end
